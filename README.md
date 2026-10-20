@@ -32,7 +32,7 @@ You can also smooth a specific file or use custom parameters:
 
 ```matlab
 run_smoothing('my_photo.png')                    % any image path
-run_smoothing([], 'lambda', 0.02, 'gamma', 4.0)  % custom parameters
+run_smoothing([], 'lambda', 0.01, 'gamma', 3.0)  % custom parameters
 S = lp_smooth('my_photo.png');                   % core function directly
 imshow(S);
 ```
